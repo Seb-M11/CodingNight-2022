@@ -18,6 +18,7 @@
   "homepage": "https://github.com/K0S4/CodingNight-2022#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
     "ejs": "^3.1.8",
     "express": "^4.18.2",
     "mysql": "^2.18.1",

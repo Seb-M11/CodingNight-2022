@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sebchat</title>
+    </head>
+    <body>
+        <form action="/login" method="post" id="login">
+            Email:<input type="text" name="email" id="email" required value=<%=email%>><br>
+            Hasło:<input type="text" name="pass" id="pass" required value=<%=pass%>><br><p style="color:red;">błędny email lub hasło</p>
+            <button type="submit" name="login">zaloguj się</button>
+        </form><br><br><br>
+        <a href="register">zarejestruj się</a>
+    </body>
+</html>
