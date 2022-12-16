@@ -30,6 +30,14 @@ app.get('/', (req, res) => {
       });
 })
 
+app.get('/plany', (req, res) => {
+    res.render('plany.ejs')
+})
+
+
+app.get("/register", (req,res)=>{
+    res.render("register.ejs")
+})
 
 
 
